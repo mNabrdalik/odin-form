@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Form</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <div class="logo-section">
+                <img width="40" height="40" src="./images/hill-sunny.svg" alt="Thanks from mountain logo">
+                <h1>Thanks</h1>
+            </div>
+            <p>Photo by Daniel Leone on Unsplash</p>
+        </div>
+        <div class="right-side">
+            <!-- dodać max i min w inputach, schemat maila i numeru telefonu -->
+            <form action="" method="post">
+                <legend>This is fake website about Thanks from Mountain Company. Don't type your real information. <br><br> Sign up to go nowhere, because it is not true contact form. </legend>
+                <h2>Contact us!</h2>
+                <div class="group">
+                    <div class="single">
+                        <label for="fname">First name</label>
+                        <input type="text" id="fname" name="fname" placeholder="John" required>
+                    </div>
+                    <div class="single">
+                        <label for="lname">Last name</label>
+                        <input type="text" id="lname" name="lname" placeholder="Doe" required>
+                    </div>
+                    <div class="single">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="johndoe@mail.mail" required>
+                    </div>
+                    <div class="single">
+                        <label for="phone">Phone number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+48 123123123" required>
+                    </div>
+                    <div class="single">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Type your password" required>
+                    </div>
+                    <div class="single">
+                        <label for="passwordConfirm">Confirm Password</label>
+                        <input type="password" id="passwordConfirm" name="passwordConfirm" placeholder="Confirm your password" required>
+                    </div>
+                    <input type="submit" value="Create Account">
+                </div>
+               <br>
+                <p>Already have an account? <a href="">Log in</a></p>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
